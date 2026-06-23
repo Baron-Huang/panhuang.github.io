@@ -175,6 +175,21 @@ nav ul li a:hover{
 /* =========================
    Badges
 ========================= */
+.profile-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 18px;
+}
 
 .badges {
   display: flex;
