@@ -178,6 +178,7 @@ nav ul li a:hover{
 
 .badges {
   display: flex;
+  align-items: center;
   gap: 14px;
   flex-wrap: wrap;
 }
@@ -185,15 +186,19 @@ nav ul li a:hover{
 .badge {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   padding: 12px 20px;
   border-radius: 999px;
   background: #eaf2ff;
   color: #4b1b6f;
+  font-size: 16px;
   font-weight: 600;
-  text-decoration: none;
   line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
+.badge:link,
 .badge:visited,
 .badge:hover,
 .badge:active {
