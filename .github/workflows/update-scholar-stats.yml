@@ -1,6 +1,9 @@
 name: Update Google Scholar statistics
 
 on:
+  push:
+    paths:
+      - ".github/workflows/update-scholar-stats.yml"
   schedule:
     - cron: "20 4 * * *"
   workflow_dispatch:
@@ -25,4 +28,3 @@ jobs:
           git add data/scholar.json
           git commit -m "chore: refresh Google Scholar statistics"
           git push
-
