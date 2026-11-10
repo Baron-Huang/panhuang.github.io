@@ -56,6 +56,7 @@ def main() -> None:
             "title": paper["title"],
             "authors": paper.get("authors", ""),
             "venue": paper.get("publication", ""),
+            "year": paper.get("year", ""),
         }
         for paper in payload.get("articles", [])
         if paper.get("title")
