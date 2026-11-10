@@ -54,6 +54,9 @@
       return countReviewSummaries(data);
     })
     .then((count) => {
+      if (!Number.isFinite(count) || count < 1) {
+        throw new Error("ORCID returned no public peer-review summaries");
+      }
       document.querySelectorAll("[data-orcid-metric='peerReviews']").forEach((element) => {
         element.textContent = new Intl.NumberFormat("en-US").format(count);
       });
