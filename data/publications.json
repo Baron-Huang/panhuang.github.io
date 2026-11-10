@@ -1,269 +1,313 @@
 {
-  "updatedAt": "2026-11-10T08:07:29Z",
+  "updatedAt": "2026-11-10T08:12:05Z",
   "papers": [
     {
       "id": "V_7bX4QAAAAJ:0EnyYjriUFMC",
       "title": "A ViT-AMC network with adaptive model fusion and multiobjective optimization for interpretable laryngeal tumor grading from histopathological images",
       "authors": "P Huang, P He, S Tian, M Ma, P Feng, H Xiao, F Mercaldo, A Santone, ...",
-      "venue": "IEEE Transactions on Medical Imaging 42 (1), 15-28, 2023"
+      "venue": "IEEE Transactions on Medical Imaging 42 (1), 15-28, 2023",
+      "year": "2023"
     },
     {
       "id": "V_7bX4QAAAAJ:4JMBOYKVnBMC",
       "title": "MamlFormer: Priori-experience Guiding Transformer Network via Manifold Adversarial Multi-modal Learning for Laryngeal Histopathological Grading",
       "authors": "P Huang, C Li, P He, H Xiao, Y Ping, P Feng, S Tian, H Chen, F Mercaldo, ...",
-      "venue": "Information Fusion, 102333, 2024"
+      "venue": "Information Fusion, 102333, 2024",
+      "year": "2024"
     },
     {
       "id": "V_7bX4QAAAAJ:zYLM7Y9cAGgC",
       "title": "FABNet: fusion attention block and transfer learning for laryngeal cancer tumor grading in P63 IHC histopathology images",
       "authors": "P Huang, X Tan, X Zhou, S Liu, F Mercaldo, A Santone",
-      "venue": "IEEE Journal of Biomedical and Health Informatics 26 (4), 1696-1707, 2022"
+      "venue": "IEEE Journal of Biomedical and Health Informatics 26 (4), 1696-1707, 2022",
+      "year": "2022"
     },
     {
       "id": "V_7bX4QAAAAJ:roLk4NBRz8UC",
       "title": "ASI-DBNet: an adaptive sparse interactive resnet-vision transformer dual-branch network for the grading of brain cancer histopathological images",
       "authors": "X Zhou, C Tang, P Huang*, S Tian, F Mercaldo, A Santone",
-      "venue": "Interdisciplinary Sciences: Computational Life Sciences 15 (1), 15-31, 2023"
+      "venue": "Interdisciplinary Sciences: Computational Life Sciences 15 (1), 15-31, 2023",
+      "year": "2023"
     },
     {
       "id": "V_7bX4QAAAAJ:IjCSPb-OGe4C",
       "title": "LPCANet: Classification of laryngeal cancer histopathological images using a CNN with position attention and channel attention mechanisms",
       "authors": "X Zhou, C Tang, P Huang*, F Mercaldo, A Santone, Y Shao",
-      "venue": "Interdisciplinary Sciences: Computational Life Sciences 13 (4), 666-682, 2021"
+      "venue": "Interdisciplinary Sciences: Computational Life Sciences 13 (4), 666-682, 2021",
+      "year": "2021"
     },
     {
       "id": "V_7bX4QAAAAJ:LkGwnXOMwfcC",
       "title": "AF-SENet: Classification of cancer in cervical tissue pathological images based on fusing deep convolution features",
       "authors": "P Huang, X Tan, C Chen, X Lv, Y Li",
-      "venue": "Sensors 21 (1), 122, 2020"
+      "venue": "Sensors 21 (1), 122, 2020",
+      "year": "2020"
     },
     {
       "id": "V_7bX4QAAAAJ:_FxGoFyzp5QC",
       "title": "Classification of cervical biopsy images based on LASSO and EL-SVM",
       "authors": "P Huang, S Zhang, M Li, J Wang, C Ma, B Wang, X Lv",
-      "venue": "IEEE Access 8, 24219-24228, 2020"
+      "venue": "IEEE Access 8, 24219-24228, 2020",
+      "year": "2020"
     },
     {
       "id": "V_7bX4QAAAAJ:r0BpntZqJG4C",
       "title": "LA-ViT: A Network with Transformers Constrained by Learned-Parameter-Free Attention for Interpretable Grading in a New Laryngeal Histopathology Image Dataset",
       "authors": "P Huang, H Xiao, P He, C Li, X Guo, S Tian, P Feng, H Chen, Y Sun, ...",
-      "venue": "IEEE Journal of Biomedical and Health Informatics, 2024"
+      "venue": "IEEE Journal of Biomedical and Health Informatics, 2024",
+      "year": "2024"
     },
     {
       "id": "V_7bX4QAAAAJ:5nxA0vEk-isC",
       "title": "CASDD: Automatic surface defect detection using a complementary adversarial network",
       "authors": "S Tian, P Huang^, H Ma, J Wang, X Zhou, S Zhang, J Zhou, R Huang, Y Li",
-      "venue": "IEEE Sensors Journal 22 (20), 19583-19595, 2022"
+      "venue": "IEEE Sensors Journal 22 (20), 19583-19595, 2022",
+      "year": "2022"
     },
     {
       "id": "V_7bX4QAAAAJ:ldfaerwXgEUC",
       "title": "CGAM: An end-to-end causality graph attention Mamba network for esophageal pathology grading",
       "authors": "Y Qu, X Zhou, P Huang*, Y Liu, F Mercaldo, A Santone, P Feng",
-      "venue": "Biomedical Signal Processing and Control 103, 107452, 2025"
+      "venue": "Biomedical Signal Processing and Control 103, 107452, 2025",
+      "year": "2025"
     },
     {
       "id": "V_7bX4QAAAAJ:3fE2CSJIrl8C",
       "title": "Computer-aided diagnosis and staging of pancreatic cancer based on CT images",
       "authors": "M Li, X Nie, Y Reheman, P Huang, S Zhang, Y Yuan, C Chen, Z Yan, ...",
-      "venue": "IEEE Access 8, 141705-141718, 2020"
+      "venue": "IEEE Access 8, 141705-141718, 2020",
+      "year": "2020"
     },
     {
       "id": "V_7bX4QAAAAJ:ULOm3_A8WrAC",
       "title": "Interpretable laryngeal tumor grading of histopathological images via depth domain adaptive network with integration gradient CAM and priori experience-guided attention",
       "authors": "P Huang, X Zhou, P Feng, P He, S Tian, Y Sun, F Mercaldo, A Santone, ...",
-      "venue": "Computers in Biology and Medicine, 106447, 2022"
+      "venue": "Computers in Biology and Medicine, 106447, 2022",
+      "year": "2022"
     },
     {
       "id": "V_7bX4QAAAAJ:NMxIlDl6LWMC",
       "title": "Isolation forest-voting fusion-multioutput: A stroke risk classification method based on the multidimensional output of abnormal sample detection",
       "authors": "H He, H Yang, F Mercaldo, A Santone, P Huang",
-      "venue": "Computer Methods and Programs in Biomedicine 253, 108255, 2024"
+      "venue": "Computer Methods and Programs in Biomedicine 253, 108255, 2024",
+      "year": "2024"
     },
     {
       "id": "V_7bX4QAAAAJ:pqnbT2bcN3wC",
       "title": "FDTs: A feature disentangled transformer for interpretable squamous cell carcinoma grading",
       "authors": "P Huang, X Luo",
-      "venue": "IEEE/CAA Journal of Automatica Sinica 12 (11), 2365-2367, 2025"
+      "venue": "IEEE/CAA Journal of Automatica Sinica 12 (11), 2365-2367, 2025",
+      "year": "2025"
     },
     {
       "id": "V_7bX4QAAAAJ:iH-uZ7U-co4C",
       "title": "Machine learning for uterine cervix screening",
       "authors": "F Mercaldo, X Zhou, P Huang, F Martinelli, A Santone",
-      "venue": "2022 IEEE 22nd International Conference on Bioinformatics and Bioengineering \u2026, 2022"
+      "venue": "2022 IEEE 22nd International Conference on Bioinformatics and Bioengineering \u2026, 2022",
+      "year": "2022"
     },
     {
       "id": "V_7bX4QAAAAJ:M3ejUd6NZC8C",
       "title": "E-TBNet: Light Deep Neural Network for automatic detection of tuberculosis with X-ray DR Imaging",
       "authors": "L An, K Peng, X Yang, P Huang, Y Luo, P Feng, B Wei",
-      "venue": "Sensors 22 (3), 821, 2022"
+      "venue": "Sensors 22 (3), 821, 2022",
+      "year": "2022"
     },
     {
       "id": "V_7bX4QAAAAJ:RGFaLdJalmkC",
       "title": "A robust and explainable deep learning method for cervical cancer screening",
       "authors": "M Di Giammarco, F Mercaldo, X Zhou, P Huang, A Santone, M Cesarelli, ...",
-      "venue": "International Conference on Applied Intelligence and Informatics, 111-125, 2023"
+      "venue": "International Conference on Applied Intelligence and Informatics, 111-125, 2023",
+      "year": "2023"
     },
     {
       "id": "V_7bX4QAAAAJ:9ZlFYXVOiuMC",
       "title": "The Swin-Transformer network based on focal loss is used to identify images of pathological subtypes of lung adenocarcinoma with high similarity and class imbalance",
       "authors": "Y Wang, F Luo, X Yang, Q Wang, Y Sun, S Tian, P Feng, P Huang*, ...",
-      "venue": "Journal of Cancer Research and Clinical Oncology 149 (11), 8581-8592, 2023"
+      "venue": "Journal of Cancer Research and Clinical Oncology 149 (11), 8581-8592, 2023",
+      "year": "2023"
     },
     {
       "id": "V_7bX4QAAAAJ:Se3iqnhoufwC",
       "title": "Efficient tooth gingival margin line reconstruction via adversarial learning",
       "authors": "S Tian, M Wang, H Ma, P Huang, N Dai, Y Sun, J Meng",
-      "venue": "Biomedical Signal Processing and Control 78, 103954, 2022"
+      "venue": "Biomedical Signal Processing and Control 78, 103954, 2022",
+      "year": "2022"
     },
     {
       "id": "V_7bX4QAAAAJ:L8Ckcad2t8MC",
       "title": "Automated detection of tuberculosis bacilli using deep neural networks with sputum smear images",
       "authors": "L An, K Peng, X Yang, P Feng, P Huang",
-      "venue": "2022 5th International Conference on Pattern Recognition and Artificial \u2026, 2022"
+      "venue": "2022 5th International Conference on Pattern Recognition and Artificial \u2026, 2022",
+      "year": "2022"
     },
     {
       "id": "V_7bX4QAAAAJ:CHSYGLWDkRkC",
       "title": "Knowledge-driven Multiple Instance Learning with Hierarchical Cluster-incorporated Aware Filtering for Larynx Pathological Grading",
       "authors": "C Li, P Huang*, J Qin, X Luo",
-      "venue": "IEEE Journal of Biomedical and Health Informatics, 2025"
+      "venue": "IEEE Journal of Biomedical and Health Informatics, 2025",
+      "year": "2025"
     },
     {
       "id": "V_7bX4QAAAAJ:YFjsv_pBGBYC",
       "title": "RADDA-Net: residual attention-based dual discriminator adversarial network for surface defect detection",
       "authors": "S Tian, H Ma, P Huang, X Wang, T Li, R Huang",
-      "venue": "Engineering Applications of Artificial Intelligence 136, 108887, 2024"
+      "venue": "Engineering Applications of Artificial Intelligence 136, 108887, 2024",
+      "year": "2024"
     },
     {
       "id": "V_7bX4QAAAAJ:mB3voiENLucC",
       "title": "DCA-DAFFNet: An end-to-end network with deformable fusion attention and deep adaptive feature fusion for laryngeal tumor grading from histopathology images",
       "authors": "J Luo, P Huang^, P He, B Wei, X Guo, H Xiao, Y Sun, S Tian, M Zhou, ...",
-      "venue": "IEEE Transactions on Instrumentation and Measurement 72, 1-15, 2023"
+      "venue": "IEEE Transactions on Instrumentation and Measurement 72, 1-15, 2023",
+      "year": "2023"
     },
     {
       "id": "V_7bX4QAAAAJ:dQ2og3OwTAUC",
       "title": "Breast tumor grading network based on adaptive fusion and microscopic imaging",
       "authors": "P Huang, P He, X Yang, J Luo, H Xiao, S Tian, P Feng",
-      "venue": "Opto-Electronic Engineering 50 (1), 220158-1-220158-13, 2023"
+      "venue": "Opto-Electronic Engineering 50 (1), 220158-1-220158-13, 2023",
+      "year": "2023"
     },
     {
       "id": "V_7bX4QAAAAJ:u5HHmVD_uO8C",
       "title": "Recognition of common non-normal walking actions based on Relief-F feature selection and relief-bagging-SVM",
       "authors": "P Huang, Y Li, X Lv, W Chen, S Liu",
-      "venue": "Sensors 20 (5), 1447, 2020"
+      "venue": "Sensors 20 (5), 1447, 2020",
+      "year": "2020"
     },
     {
       "id": "V_7bX4QAAAAJ:KxtntwgDAa4C",
       "title": "Prediction of PD-L1 tumor positive score in lung squamous cell carcinoma with H&E staining images and deep learning",
       "authors": "Q Wang, X Deng, P Huang^, Q Ma, L Zhao, Y Feng, Y Wang, Y Zhao, ...",
-      "venue": "Frontiers in Artificial Intelligence 7, 1452563, 2024"
+      "venue": "Frontiers in Artificial Intelligence 7, 1452563, 2024",
+      "year": "2024"
     },
     {
       "id": "V_7bX4QAAAAJ:kNdYIx-mwKoC",
       "title": "A growing model-based OCSVM for abnormal student activity detection from daily campus consumption",
       "authors": "X Yang, P Huang, L An, P Feng, B Wei, P He, K Peng",
-      "venue": "New Generation Computing 40 (4), 915-933, 2022"
+      "venue": "New Generation Computing 40 (4), 915-933, 2022",
+      "year": "2022"
     },
     {
       "id": "V_7bX4QAAAAJ:eflP2zaiRacC",
       "title": "A Multi-instance Learning Network with Prototype-instance Adversarial Contrastive for Cervix Pathology Grading",
       "authors": "M Ma, F Luo, B Ma, S Liu, X Lv, P Huang*",
-      "venue": "Medical Image Analysis, 103880, 2026"
+      "venue": "Medical Image Analysis, 103880, 2026",
+      "year": "2026"
     },
     {
       "id": "V_7bX4QAAAAJ:J_g5lzvAfSwC",
       "title": "MCRANet: MTSL-based connectivity region attention network for PD-L1 status segmentation in H&E stained images",
       "authors": "X Deng, J Luo, P Huang*, P He, J Li, Y Liu, H Xiao, P Feng",
-      "venue": "Computers in Biology and Medicine 184, 109357, 2025"
+      "venue": "Computers in Biology and Medicine 184, 109357, 2025",
+      "year": "2025"
     },
     {
       "id": "V_7bX4QAAAAJ:dfsIfKJdRG4C",
       "title": "Reduction of Compton background noise for X-ray fluorescence computed tomography with deep learning",
       "authors": "P Feng, Y Luo, R Zhao, P Huang, Y Li, P He, B Tang, X Zhao",
-      "venue": "Photonics 9 (2), 108, 2022"
+      "venue": "Photonics 9 (2), 108, 2022",
+      "year": "2022"
     },
     {
       "id": "V_7bX4QAAAAJ:ZuybSZzF8UAC",
       "title": "Positive Semi-definite Group-Aware Instance Disentangled Learning for WSI Representation",
       "authors": "C Li, B Bozorgtabar, Y Ping, CK Wong, P Huang*, J Qin",
-      "venue": "International Conference on Medical Image Computing and Computer-Assisted \u2026, 2026"
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted \u2026, 2026",
+      "year": "2026"
     },
     {
       "id": "V_7bX4QAAAAJ:TFP_iSt0sucC",
       "title": "GMBLOF: A machine learning algorithm of novelty detection based on local outlier factor",
       "authors": "X Yang, K Peng, L An, P Huang, P Feng",
-      "venue": "2022 5th International Conference on Pattern Recognition and Artificial \u2026, 2022"
+      "venue": "2022 5th International Conference on Pattern Recognition and Artificial \u2026, 2022",
+      "year": "2022"
     },
     {
       "id": "V_7bX4QAAAAJ:u_35RYKgDlwC",
       "title": "Semantic consistency network with edge learner and connectivity enhancer for cervical tumor segmentation from histopathology images",
       "authors": "L Pang, P He, Y Han, H Cui, P Feng, C Zhang, P Huang^, S Tian",
-      "venue": "Interdisciplinary Sciences: Computational Life Sciences 17 (4), 917-934, 2025"
+      "venue": "Interdisciplinary Sciences: Computational Life Sciences 17 (4), 917-934, 2025",
+      "year": "2025"
     },
     {
       "id": "V_7bX4QAAAAJ:1qzjygNMrQYC",
       "title": "TexSem-Net: Texture Augmentation and Regional Semantics Fusion Dense-Prediction Network for Cervical Squamous Cell Carcinoma Histopathological Images",
       "authors": "R Deng, S Hu, P Huang^, Y Sun, L Jiang, P Wei, W Ding, S Tian",
-      "venue": "IEEE Transactions on Circuits and Systems for Video Technology, 2026"
+      "venue": "IEEE Transactions on Circuits and Systems for Video Technology, 2026",
+      "year": "2026"
     },
     {
       "id": "V_7bX4QAAAAJ:SdhP9T11ey4C",
       "title": "TSMIL: Transformer-Based Structured Low-Rank End-to-End Multi-Instance Learning Network for Renal Cell Carcinoma Classification in Whole-Slide Images",
       "authors": "X Xu, Y Mao, H Cui, Y Han, X Zhang, P Huang, H Chen, S Tian, P He, ...",
-      "venue": "Intelligent Oncology, 100057, 2026"
+      "venue": "Intelligent Oncology, 100057, 2026",
+      "year": "2026"
     },
     {
       "id": "V_7bX4QAAAAJ:hkOj_22Ku90C",
       "title": "\u57fa\u4e8e\u81ea\u9002\u5e94\u878d\u5408\u548c\u663e\u5fae\u6210\u50cf\u7684\u4e73\u817a\u80bf\u7624\u5206\u7ea7\u7f51\u7edc",
       "authors": "\u9ec4\u76fc\uff0c \u4f55\u9e4f\uff0c \u6768\u5174\uff0c \u7f57\u5bb6\u6d0b\uff0c \u8096\u534e\u4eae\uff0c \u7530\u7d20\u5764\uff0c \u51af\u9e4f",
-      "venue": "\u5149\u7535\u5de5\u7a0b 50 (1), 220158-1-220158-13, 2022"
+      "venue": "\u5149\u7535\u5de5\u7a0b 50 (1), 220158-1-220158-13, 2022",
+      "year": "2022"
     },
     {
       "id": "V_7bX4QAAAAJ:cFHS6HbyZ2cC",
       "title": "Differentiating benign and malignant parotid gland tumors using CT images and machine learning algorithms",
       "authors": "Y Yuan, Y Hong, X Liv, J Peng, M Li, D Guo, P Huang, C Chen, Z Yan, ...",
-      "venue": "Int J Clin Exp Med 14 (15), 1864-1873, 2021"
+      "venue": "Int J Clin Exp Med 14 (15), 1864-1873, 2021",
+      "year": "2021"
     },
     {
       "id": "V_7bX4QAAAAJ:N5tVd3kTz84C",
       "title": "Prototype Instance-semantic Disentanglement with Low-rank Regularized Subspace Clustering for WSIs Explainable Recognition",
       "authors": "C Li, P Huang*",
-      "venue": "International Conference on Medical Image Computing and Computer-Assisted \u2026, 2026"
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted \u2026, 2026",
+      "year": "2026"
     },
     {
       "id": "V_7bX4QAAAAJ:OU6Ihb5iCvQC",
       "title": "DEW-Net: A W-Shaped Dual-Encoder Network with Attention Fusion Mechanisms for Pathological H&E Image Segmentation",
       "authors": "F Meng, X Deng, Y Qu, C Li, Q Ma, Y Mao, X Zhang, P Huang, H Chen, ...",
-      "venue": "IEEE Journal of Biomedical and Health Informatics, 2026"
+      "venue": "IEEE Journal of Biomedical and Health Informatics, 2026",
+      "year": "2026"
     },
     {
       "id": "V_7bX4QAAAAJ:3s1wT3WcHBgC",
       "title": "A Denoising Algorithm for Ultraviolet-Visible Spectrum Based on CEEMDAN and Dual-Tree Complex Wavelet Transform",
       "authors": "W Ren-jie, F Peng, Y Xing, A Le, H Pan, L Yan, H Peng, T Bin",
-      "venue": "SPECTROSCOPY AND SPECTRAL ANALYSIS 43 (3), 976-983, 2023"
+      "venue": "SPECTROSCOPY AND SPECTRAL ANALYSIS 43 (3), 976-983, 2023",
+      "year": "2023"
     },
     {
       "id": "V_7bX4QAAAAJ:8AbLer7MMksC",
       "title": "Mani-NENet: Manifold Neuron Energy Network-enhancing Dysplastic Cells Perception for Lung Adenocarcinoma Subtypes Recognition",
       "authors": "Y Mao, X Xu, J Luo, H Cui, F Luo, P Huang*, P Feng",
-      "venue": "IEEE Transactions on Instrumentation and Measurement, 2026"
+      "venue": "IEEE Transactions on Instrumentation and Measurement, 2026",
+      "year": "2026"
     },
     {
       "id": "V_7bX4QAAAAJ:a0OBvERweLwC",
       "title": "\u4e00\u79cd\u878d\u5408\u80ba\u708e\u5f71\u50cf\u7279\u5f81\u7684\u80ba\u7ed3\u6838\u75c5\u7076\u68c0\u6d4b\u8fc1\u79fb\u7f51\u7edc",
       "authors": "\u5b89\u4e50\uff0c \u5f6d\u67ef\u946b\uff0c \u6768\u5174\uff0c \u9ec4\u76fc\uff0c \u9b4f\u5f6a\uff0c \u51af\u9e4f",
-      "venue": "Optical Technique 49 (1), 120-128, 2023"
+      "venue": "Optical Technique 49 (1), 120-128, 2023",
+      "year": "2023"
     },
     {
       "id": "V_7bX4QAAAAJ:eq2jaN3J8jMC",
       "title": "High-level medical semantic adaptation via an intelligent communication mixture-of-experts for medical image segmentation",
       "authors": "X Zhang, P Huang, Z Yuan, S Tian, H Chen, P Feng",
-      "venue": "Displays, 103677, 2026"
+      "venue": "Displays, 103677, 2026",
+      "year": "2026"
     },
     {
       "id": "V_7bX4QAAAAJ:p2g8aNsByqUC",
       "title": "MacNet: An End-to-End Manifold-Constrained Adaptive Clustering Network for Interpretable Whole Slide Image Classification",
       "authors": "M Ma, C Li, P Huang*, J Qin",
-      "venue": "arXiv preprint arXiv:2602.14509, 2026"
+      "venue": "arXiv preprint arXiv:2602.14509, 2026",
+      "year": "2026"
     }
   ],
   "news": []
