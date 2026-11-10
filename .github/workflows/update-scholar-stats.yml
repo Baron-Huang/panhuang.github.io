@@ -1,4 +1,4 @@
-name: Update Google Scholar profile data # SerpApi sync
+name: Update Google Scholar profile data # SerpApi sync refresh
 
 on:
   push:
