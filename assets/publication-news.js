@@ -12,14 +12,21 @@
       return response.json();
     })
     .then((data) => {
-      const news = Array.isArray(data.news) ? data.news.slice(0, 6) : [];
-      if (!news.length) {
-        newsList.innerHTML = '<p class="news-empty">New publications indexed by Google Scholar will appear here automatically.</p>';
+      const publicationYear = (item) => {
+        const match = String(item.year || item.venue || "").match(/20\d{2}/);
+        return match ? Number(match[0]) : 0;
+      };
+      const latest = (Array.isArray(data.papers) ? data.papers : [])
+        .slice()
+        .sort((left, right) => publicationYear(right) - publicationYear(left))
+        .slice(0, 3);
+      if (!latest.length) {
+        newsList.innerHTML = '<p class="news-empty">Recent publications will appear after the next Scholar update.</p>';
         return;
       }
-      newsList.innerHTML = news.map((item) => `
+      newsList.innerHTML = latest.map((item) => `
         <article class="news-item">
-          <time class="news-date" datetime="${escapeHtml(item.detectedAt)}">New paper</time>
+          <time class="news-date">${escapeHtml(String(publicationYear(item) || "Latest"))}</time>
           <div>
             <h3>${escapeHtml(item.title)}</h3>
             <p>${escapeHtml([item.authors, item.venue].filter(Boolean).join(" · "))}</p>
