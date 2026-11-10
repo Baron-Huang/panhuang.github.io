@@ -38,28 +38,4 @@
       // Keep the section hidden when the public ORCID record cannot be reached.
     });
 
-  fetch(`https://pub.orcid.org/v3.0/${orcid}/peer-reviews`, {
-    headers: { Accept: "application/vnd.orcid+json" },
-  })
-    .then((response) => response.ok ? response.json() : Promise.reject())
-    .then((data) => {
-      const countReviewSummaries = (node) => {
-        if (Array.isArray(node)) return node.reduce((total, item) => total + countReviewSummaries(item), 0);
-        if (!node || typeof node !== "object") return 0;
-        return Object.entries(node).reduce((total, [key, value]) => {
-          if (key === "peer-review-summary" && Array.isArray(value)) return total + value.length;
-          return total + countReviewSummaries(value);
-        }, 0);
-      };
-      return countReviewSummaries(data);
-    })
-    .then((count) => {
-      if (!Number.isFinite(count) || count < 1) {
-        throw new Error("ORCID returned no public peer-review summaries");
-      }
-      document.querySelectorAll("[data-orcid-metric='peerReviews']").forEach((element) => {
-        element.textContent = new Intl.NumberFormat("en-US").format(count);
-      });
-    })
-    .catch(() => {});
 })();
