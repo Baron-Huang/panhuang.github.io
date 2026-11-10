@@ -42,9 +42,17 @@
     headers: { Accept: "application/vnd.orcid+json" },
   })
     .then((response) => response.ok ? response.json() : Promise.reject())
-    .then((data) => (data.group || []).reduce(
-      (total, group) => total + (group["peer-review-summary"] || []).length, 0,
-    ))
+    .then((data) => {
+      const countReviewSummaries = (node) => {
+        if (Array.isArray(node)) return node.reduce((total, item) => total + countReviewSummaries(item), 0);
+        if (!node || typeof node !== "object") return 0;
+        return Object.entries(node).reduce((total, [key, value]) => {
+          if (key === "peer-review-summary" && Array.isArray(value)) return total + value.length;
+          return total + countReviewSummaries(value);
+        }, 0);
+      };
+      return countReviewSummaries(data);
+    })
     .then((count) => {
       document.querySelectorAll("[data-orcid-metric='peerReviews']").forEach((element) => {
         element.textContent = new Intl.NumberFormat("en-US").format(count);
