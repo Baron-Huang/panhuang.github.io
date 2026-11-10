@@ -17,6 +17,8 @@
     <div class="logo">Pan Huang</div>
     <ul>
       <li><a href="#about">About</a></li>
+      <li><a href="#orcid-profile">Profile</a></li>
+      <li><a href="#news">News</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#publications">Publications</a></li>
       <li><a href="#service">Service</a></li>
@@ -77,6 +79,10 @@
       <p>SCI Q1 Papers</p>
     </div>
     <div class="card">
+      <h3 data-scholar-metric="publicationCount">—</h3>
+      <p>Google Scholar Papers</p>
+    </div>
+    <div class="card">
       <h3 data-scholar-metric="citations">1200+</h3>
       <p>Citations</p>
     </div>
@@ -89,8 +95,45 @@
       <p>i10-index</p>
     </div>
     <div class="card">
-      <h3>400+</h3>
-      <p>Journal/Conference reviewer</p>
+      <h3 data-orcid-metric="peerReviews">1</h3>
+      <p>Public ORCID peer reviews</p>
+    </div>
+  </div>
+</section>
+
+<!-- ORCID Profile -->
+<section id="orcid-profile" class="profile-section">
+  <div class="container">
+    <h2>Profile</h2>
+    <div class="orcid-profile-card" data-orcid-profile hidden>
+      <div class="orcid-profile-heading">
+        <span class="orcid-mark">iD</span>
+        <div>
+          <p class="eyebrow">ORCID PUBLIC PROFILE</p>
+          <h3 data-orcid-name>Pan Huang</h3>
+        </div>
+      </div>
+      <p class="orcid-bio" data-orcid-bio></p>
+      <div class="orcid-meta">
+        <span data-orcid-keywords hidden></span>
+        <a href="https://orcid.org/0000-0001-8158-2628" target="_blank" rel="noopener noreferrer">View ORCID record →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Dynamic publication news -->
+<section id="news" class="news-section">
+  <div class="container">
+    <div class="section-heading-row">
+      <div>
+        <p class="eyebrow">GOOGLE SCHOLAR</p>
+        <h2>Publication News</h2>
+      </div>
+      <a class="section-link" href="https://scholar.google.com/citations?user=V_7bX4QAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">All publications →</a>
+    </div>
+    <div class="news-list" data-publication-news aria-live="polite">
+      <p class="news-empty">Checking for newly indexed publications…</p>
     </div>
   </div>
 </section>
@@ -619,6 +662,8 @@ ResearchGate
 </footer>
 
   <script src="assets/scholar-stats.js" defer></script>
+  <script src="assets/orcid-profile.js" defer></script>
+  <script src="assets/publication-news.js" defer></script>
 </body>
 
 </html>  
