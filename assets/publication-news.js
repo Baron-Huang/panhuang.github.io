@@ -16,10 +16,8 @@
         const match = String(item.year || item.venue || "").match(/20\d{2}/);
         return match ? Number(match[0]) : 0;
       };
-      const latest = (Array.isArray(data.papers) ? data.papers : [])
-        .slice()
-        .sort((left, right) => publicationYear(right) - publicationYear(left))
-        .slice(0, 3);
+      // The scheduled Scholar request asks SerpApi to sort by publication date.
+      const latest = (Array.isArray(data.papers) ? data.papers : []).slice(0, 3);
       if (!latest.length) {
         newsList.innerHTML = '<p class="news-empty">Recent publications will appear after the next Scholar update.</p>';
         return;
