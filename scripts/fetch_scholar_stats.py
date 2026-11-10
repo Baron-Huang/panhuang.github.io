@@ -39,6 +39,7 @@ def main() -> None:
         "author_id": AUTHOR_ID,
         "hl": "en",
         "num": 100,
+        "sort": "pubdate",
         "api_key": api_key,
     })
     try:
